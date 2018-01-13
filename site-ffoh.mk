@@ -10,6 +10,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-mesh-vpn \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
+	gluon-ebtables-segment-mld \
 	gluon-web-admin \
 	gluon-web-autoupdater \
 	gluon-web-network \
@@ -20,10 +21,12 @@ GLUON_SITE_PACKAGES := \
 	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
+	respondd-module-airtime \
 	haveged \
 	iwinfo
+	#gluon-mesh-vpn-tunneldigger \
 
-DEFAULT_GLUON_RELEASE := 0.9.3~exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.9.4~exp$(shell date '+%Y%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
