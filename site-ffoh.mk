@@ -1,32 +1,25 @@
+GLUON_FEATURES := \
+	autoupdater \
+	ebtables-filter-multicast \
+	ebtables-filter-ra-dhcp \
+	ebtables-limit-arp \
+	mesh-batman-adv-15 \
+	mesh-vpn-fastd \
+	radvd \
+	respondd \
+	status-page \
+	web-advanced \
+	web-wizard
+
 GLUON_SITE_PACKAGES := \
 	gluon-alfred \
-	gluon-respondd \
-	gluon-autoupdater \
-	gluon-config-mode-autoupdater \
-	gluon-config-mode-contact-info \
-	gluon-config-mode-core \
-	gluon-config-mode-geo-location \
-	gluon-config-mode-hostname \
-	gluon-config-mode-mesh-vpn \
-	gluon-ebtables-filter-multicast \
-	gluon-ebtables-filter-ra-dhcp \
-	gluon-ebtables-segment-mld \
-	gluon-web-admin \
-	gluon-web-autoupdater \
-	gluon-web-network \
-	gluon-web-private-wifi \
-	gluon-web-wifi-config \
-	gluon-mesh-batman-adv-15 \
-	gluon-mesh-vpn-fastd \
-	gluon-radvd \
-	gluon-setup-mode \
-	gluon-status-page \
 	respondd-module-airtime \
 	haveged \
+	gluon-status-page-mesh-batman-adv \
 	iwinfo
 	#gluon-mesh-vpn-tunneldigger \
 
-DEFAULT_GLUON_RELEASE := 0.9.8~exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.9.9~exp$(shell date '+%Y%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
