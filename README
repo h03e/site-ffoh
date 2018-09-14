@@ -5,9 +5,9 @@ Cloned from Freifunk Lübeck, this project prepares the Freifunk settings
 for a partially independent network in Ostholstein (coastline north of
 Lübeck, Germany) with Gluon.
 
-Gluon versions used for specific Ostholsten Freifunk Firmware builds:
+Gluon versions used for specific Ostholsten Freifunk Firmware builds. 0.10.x uses L2TP/tunneldigger for the MeshVPN.
 
-* 0.10.0+2: v2018.1.1
+* 0.10.1: v2018.1.1
 * 0.9.9: v2018.1
 * 0.9.5: v2017.1.5
 * 0.9.4: v2017.1.4
