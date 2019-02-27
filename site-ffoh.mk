@@ -11,8 +11,9 @@ GLUON_FEATURES := \
 	respondd \
 	status-page \
 	web-advanced \
-	web-wizard \
-	mesh-vpn-tunneldigger
+	mesh-vpn-tunneldigger \	
+	web-wizard 
+	
 	# mesh-vpn-fastd
 	# alfred
 
